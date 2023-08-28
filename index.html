@@ -27,7 +27,7 @@
             <p id="num-contributions">
             </p>
         </div>
-        <div class="stats-card">
+        <div class="stats-card" onclick = "sortByMost()">
             <h3>Total Raised</h3>
             <p id="total-raised">
             </p>
@@ -54,6 +54,8 @@
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
+        <input type="checkbox" id="mostfunded" name="filterfunded">
+        <label for="mostfunded">Sort by most funded</label><br>
     </div>
     <div id="games-container">
 
